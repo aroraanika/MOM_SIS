@@ -1,0 +1,12 @@
+module load cray-mpich/7.6.3
+module load cray-libsci
+module load perftools-base/6.5.2
+module switch PrgEnv-cray/6.0.4  PrgEnv-intel
+module load intel/17.0.5.239
+module load cray-netcdf
+module load cray-hdf5
+module load craype-broadwell
+export CRAYPE_LINK_TYPE=dynamic
+
+module load pbs
+
