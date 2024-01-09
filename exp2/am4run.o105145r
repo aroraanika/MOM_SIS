@@ -1,0 +1,84 @@
+make: Nothing to be done for 'all'.
+SUCEESS
+1958
+About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+
+FATAL from PE    0: get_ascii_file_num_lines: File input.nml does not exist.
+
+Application 139773360 exit codes: 134
+Application 139773360 resources: utime ~1s, stime ~1s, Rss ~10252, inblocks ~0, outblocks ~0
+1.136u 0.168s 0:04.21 30.6%	0+0k 0+0io 0pf+0w
+1958 completed
+RESTART_folder generated
+restart data of previous year copied to INPUT folder
+end_of_run
+NOTE: Natural end-of-script.
+1959
+About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+
+FATAL from PE    0: get_ascii_file_num_lines: File input.nml does not exist.
+
+Application 139773451 exit codes: 134
+Application 139773451 resources: utime ~0s, stime ~1s, Rss ~10224, inblocks ~0, outblocks ~0
+1.088u 0.068s 0:04.17 27.3%	0+0k 0+0io 0pf+0w
+1959 completed
+RESTART_folder generated
+restart data of previous year copied to INPUT folder
+end_of_run
+NOTE: Natural end-of-script.
+1960
+About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+
+FATAL from PE    0: get_ascii_file_num_lines: File input.nml does not exist.
+
+Application 139773522 exit codes: 134
+Application 139773522 resources: utime ~1s, stime ~1s, Rss ~10248, inblocks ~0, outblocks ~0
+1.096u 0.080s 0:04.05 28.8%	0+0k 0+0io 0pf+0w
+1960 completed
+RESTART_folder generated
+restart data of previous year copied to INPUT folder
+end_of_run
+NOTE: Natural end-of-script.
+1961
+About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+
+FATAL from PE    0: get_ascii_file_num_lines: File input.nml does not exist.
+
+Application 139773595 exit codes: 134
+Application 139773595 resources: utime ~1s, stime ~1s, Rss ~10260, inblocks ~0, outblocks ~0
+1.056u 0.040s 0:03.97 27.4%	0+0k 0+0io 0pf+0w
+1961 completed
+RESTART_folder generated
+restart data of previous year copied to INPUT folder
+end_of_run
+NOTE: Natural end-of-script.
+1962
+About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+
+FATAL from PE    0: get_ascii_file_num_lines: File input.nml does not exist.
+
+Application 139773688 exit codes: 134
+Application 139773688 resources: utime ~1s, stime ~1s, Rss ~10248, inblocks ~0, outblocks ~0
+1.108u 0.148s 0:04.10 30.2%	0+0k 0+0io 0pf+0w
+1962 completed
+RESTART_folder generated
+restart data of previous year copied to INPUT folder
+end_of_run
+NOTE: Natural end-of-script.
+======================================================================================
+
+			Resource Usage on 2020-10-14 17:42:38.207900:
+
+JobId: 105145.sdb  
+	Job_Name = am4run 
+	tresource_used.cpupercent = 59 
+	resource_used.cput = 00:00:08 
+	resources_used.mem = 13336kb 
+	resources_used.ncpus = 72 
+	resources_used.vmem = 65032kb 
+	resources_used.walltime = 00:01:17 
+	resources_used.usrutime = None 
+	resources_used.usrstime = None
+	queue = sspmres 
+	
+======================================================================================

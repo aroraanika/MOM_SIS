@@ -1,0 +1,11 @@
+ ! NOAA/PMEL TMAP
+ ! FERRET v7 (opt)
+ ! Linux 2.6.32-642.1.1.el6.x86_64 64-bit - 06/30/16
+ ! 25-Jul-20 21:33     
+
+use "~/MOM_CM2M_RASH/src/t-preprocessing/generate_grids/make_xgrids/workdir/grid_spec.nc"
+use ~/MOM_CM2M_RASH/src/t-preprocessing/generate_grids/make_xgrids/workdir/grid_spec.nc
+use /home/DESK/anika/MOM_CM2M_RASH/src/t-preprocessing/generate_grids/make_xgrids/workdir/grid_spec.nc"
+use "/home/DESK/anika/MOM_CM2M_RASH/src/t-preprocessing/generate_grids/make_xgrids/workdir/grid_spec.nc"
+sh da
+q

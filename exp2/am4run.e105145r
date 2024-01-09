@@ -1,0 +1,572 @@
+ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'pbs'
+Currently Loaded Modulefiles:
+  1) modules/3.2.11.2
+  2) alps/6.4.3-6.0.4.1_2.1__g92a2fc0.ari
+  3) sysadm/2.4.119-6.0.4.0_14.2__gcab7125.ari
+  4) nodehealth/5.4.0-6.0.4.0_12.4__g3427370.ari
+  5) nodestat/2.3.78-6.0.4.0_7.2__gbe57af8.ari
+  6) sdb/3.3.729-6.0.4.0_16.2__gb405b22.ari
+  7) llm/21.3.446-6.0.4.0_20.1__gbe30105.ari
+  8) system-config/3.4.2456-6.0.4.1_13.1__g56652eb.ari
+  9) Base-opts/2.4.123-6.0.4.0_10.1__g6460790.ari
+ 10) intel/17.0.5.239
+ 11) craype-network-aries
+ 12) craype/2.5.13
+ 13) cray-mpich/7.6.3
+ 14) cray-netcdf/4.4.1.1.3
+ 15) cray-libsci/17.09.1
+ 16) pmi/5.0.12
+ 17) atp/2.1.1
+ 18) rca/2.2.11-6.0.4.0_13.2__g84de67a.ari
+ 19) perftools-base/6.5.2
+ 20) PrgEnv-intel/6.0.4
+ 21) cray-hdf5/1.10.0.3
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/grid_spec.nc ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/ocean_temp_salt.res.nc ) then
+set makeFile = Make_MOM_SIS
+cd /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS
+make -f Make_MOM_SIS
+if ( 0 != 0 ) then
+echo SUCEESS
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1
+@ year = 1958
+while ( 1958 < = 1962 )
+echo 1958
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT
+endif
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/input.nml ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/data_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/diag_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/field_table ) then
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART ) then
+cp -f /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/.
+endif
+@ iyr = 1958
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/U/u_10.1958.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/u_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/V/v_10.1958.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/v_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/Q/q_10.1958.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/q_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/T/t_10.1958.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/t_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/SLP/slp.1958.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/slp_.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/RAD/ncar_rad.1958.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/ncar_rad_clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/PRECIP/ncar_precip.1958.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/ncar_precip_clim.nc
+/home/DESK/anika/MOM_SIS/exp/preprocessing.csh
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read field_table: No such file or directory
+sed: can't read field_table: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+if ( MOM_SIS == CM2M & 24 != 45 ) then
+if ( MOM_SIS == ESM2M & 24 != 90 ) then
+if ( MOM_SIS == ICCM & 24 != 54 ) then
+if ( om3_core1 == atlantic1 & 24 != 24 ) then
+if ( om3_core1 == mom4p1_ebm1 & 24 != 17 ) then
+set runCommand = time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+echo About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+if ( 0 ) then
+aprun -n 24 /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+
+FATAL from PE    0: get_ascii_file_num_lines: File input.nml does not exist.
+
+Rank 0 [Wed Oct 14 17:41:39 2020] [c0-0c0s0n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      0000000001D6F25A  Unknown               Unknown  Unknown
+libpthread-2.22.s  00002AAAAD0B9B20  Unknown               Unknown  Unknown
+libc-2.22.so       00002AAAAD2FA8C7  gsignal               Unknown  Unknown
+libc-2.22.so       00002AAAAD2FBC9A  abort                 Unknown  Unknown
+libmpich_intel.so  00002AAAAC5032C8  Unknown               Unknown  Unknown
+libmpich_intel.so  00002AAAAC411F66  MPI_Abort             Unknown  Unknown
+libmpich_intel.so  00002AAAAC459BA5  mpi_abort             Unknown  Unknown
+fms_MOM_SIS.x      0000000001C1101F  mpp_mod_mp_mpp_er          52  mpp_util_mpi.inc
+fms_MOM_SIS.x      0000000001C070ED  mpp_mod_mp_mpp_in        1379  mpp_util.inc
+fms_MOM_SIS.x      000000000041C88C  MAIN__                    420  coupler_main.F90
+fms_MOM_SIS.x      000000000040D6EE  Unknown               Unknown  Unknown
+libc-2.22.so       00002AAAAD2E66D5  __libc_start_main     Unknown  Unknown
+fms_MOM_SIS.x      000000000040D609  Unknown               Unknown  Unknown
+_pmiu_daemon(SIGCHLD): [NID 00001] [c0-0c0s0n1] [Wed Oct 14 17:41:39 2020] PE RANK 0 exit signal Aborted
+[NID 00001] 2020-10-14 17:41:39 Apid 139773360: initiated application termination
+set begindate = `$time_stamp -bf digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -bf digital
+if ( no_time_stamp ==  ) set begindate = tmp`date '+%j%H%M%S'`
+set enddate = `$time_stamp -ef digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -ef digital
+if ( no_time_stamp ==  ) set enddate = tmp`date '+%j%H%M%S'`
+if ( -f time_stamp.out ) rm -f time_stamp.out
+cd RESTART
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/input.nml .
+cp: cannot stat '/home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/input.nml': No such file or directory
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/diag_table .
+if ( 24 > 1 ) then
+ncecat: No match.
+rm: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/history ) mkdir history
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/ascii ) mkdir ascii
+mkdir ascii
+foreach out ( `ls *.out` )
+ls: No match.
+if ( 24 > 1 ) then
+mv: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+foreach ncfile ( `/bin/ls *.nc` )
+/bin/ls: No match.
+echo 1958 completed
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1958 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1958
+mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1958
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1958/
+echo RESTART_folder generated
+echo restart data of previous year copied to INPUT folder
+@ year++
+echo end_of_run
+echo NOTE: Natural end-of-script.
+end
+while ( 1959 < = 1962 )
+echo 1959
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT
+endif
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/input.nml ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/data_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/diag_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/field_table ) then
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART ) then
+cp -f /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/.
+endif
+@ iyr = 1959
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/U/u_10.1959.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/u_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/V/v_10.1959.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/v_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/Q/q_10.1959.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/q_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/T/t_10.1959.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/t_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/SLP/slp.1959.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/slp_.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/RAD/ncar_rad.1959.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/ncar_rad_clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/PRECIP/ncar_precip.1959.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/ncar_precip_clim.nc
+/home/DESK/anika/MOM_SIS/exp/preprocessing.csh
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read field_table: No such file or directory
+sed: can't read field_table: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+if ( MOM_SIS == CM2M & 24 != 45 ) then
+if ( MOM_SIS == ESM2M & 24 != 90 ) then
+if ( MOM_SIS == ICCM & 24 != 54 ) then
+if ( om3_core1 == atlantic1 & 24 != 24 ) then
+if ( om3_core1 == mom4p1_ebm1 & 24 != 17 ) then
+set runCommand = time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+echo About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+if ( 0 ) then
+aprun -n 24 /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+
+FATAL from PE    0: get_ascii_file_num_lines: File input.nml does not exist.
+
+Rank 0 [Wed Oct 14 17:41:53 2020] [c0-0c0s0n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      0000000001D6F25A  Unknown               Unknown  Unknown
+libpthread-2.22.s  00002AAAAD0B9B20  Unknown               Unknown  Unknown
+libc-2.22.so       00002AAAAD2FA8C7  gsignal               Unknown  Unknown
+libc-2.22.so       00002AAAAD2FBC9A  abort                 Unknown  Unknown
+libmpich_intel.so  00002AAAAC5032C8  Unknown               Unknown  Unknown
+libmpich_intel.so  00002AAAAC411F66  MPI_Abort             Unknown  Unknown
+libmpich_intel.so  00002AAAAC459BA5  mpi_abort             Unknown  Unknown
+fms_MOM_SIS.x      0000000001C1101F  mpp_mod_mp_mpp_er          52  mpp_util_mpi.inc
+fms_MOM_SIS.x      0000000001C070ED  mpp_mod_mp_mpp_in        1379  mpp_util.inc
+fms_MOM_SIS.x      000000000041C88C  MAIN__                    420  coupler_main.F90
+fms_MOM_SIS.x      000000000040D6EE  Unknown               Unknown  Unknown
+libc-2.22.so       00002AAAAD2E66D5  __libc_start_main     Unknown  Unknown
+fms_MOM_SIS.x      000000000040D609  Unknown               Unknown  Unknown
+_pmiu_daemon(SIGCHLD): [NID 00001] [c0-0c0s0n1] [Wed Oct 14 17:41:54 2020] PE RANK 0 exit signal Aborted
+[NID 00001] 2020-10-14 17:41:54 Apid 139773451: initiated application termination
+set begindate = `$time_stamp -bf digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -bf digital
+if ( no_time_stamp ==  ) set begindate = tmp`date '+%j%H%M%S'`
+set enddate = `$time_stamp -ef digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -ef digital
+if ( no_time_stamp ==  ) set enddate = tmp`date '+%j%H%M%S'`
+if ( -f time_stamp.out ) rm -f time_stamp.out
+cd RESTART
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/input.nml .
+cp: cannot stat '/home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/input.nml': No such file or directory
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/diag_table .
+if ( 24 > 1 ) then
+ncecat: No match.
+rm: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/history ) mkdir history
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/ascii ) mkdir ascii
+foreach out ( `ls *.out` )
+ls: No match.
+if ( 24 > 1 ) then
+mv: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+foreach ncfile ( `/bin/ls *.nc` )
+/bin/ls: No match.
+echo 1959 completed
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1959 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1959
+mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1959
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1959/
+echo RESTART_folder generated
+echo restart data of previous year copied to INPUT folder
+@ year++
+echo end_of_run
+echo NOTE: Natural end-of-script.
+end
+while ( 1960 < = 1962 )
+echo 1960
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT
+endif
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/input.nml ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/data_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/diag_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/field_table ) then
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART ) then
+cp -f /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/.
+endif
+@ iyr = 1960
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/U/u_10.1960.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/u_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/V/v_10.1960.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/v_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/Q/q_10.1960.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/q_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/T/t_10.1960.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/t_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/SLP/slp.1960.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/slp_.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/RAD/ncar_rad.1960.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/ncar_rad_clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/PRECIP/ncar_precip.1960.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/ncar_precip_clim.nc
+/home/DESK/anika/MOM_SIS/exp/preprocessing.csh
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read field_table: No such file or directory
+sed: can't read field_table: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+if ( MOM_SIS == CM2M & 24 != 45 ) then
+if ( MOM_SIS == ESM2M & 24 != 90 ) then
+if ( MOM_SIS == ICCM & 24 != 54 ) then
+if ( om3_core1 == atlantic1 & 24 != 24 ) then
+if ( om3_core1 == mom4p1_ebm1 & 24 != 17 ) then
+set runCommand = time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+echo About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+if ( 0 ) then
+aprun -n 24 /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+
+FATAL from PE    0: get_ascii_file_num_lines: File input.nml does not exist.
+
+Rank 0 [Wed Oct 14 17:42:07 2020] [c0-0c0s0n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      0000000001D6F25A  Unknown               Unknown  Unknown
+libpthread-2.22.s  00002AAAAD0B9B20  Unknown               Unknown  Unknown
+libc-2.22.so       00002AAAAD2FA8C7  gsignal               Unknown  Unknown
+libc-2.22.so       00002AAAAD2FBC9A  abort                 Unknown  Unknown
+libmpich_intel.so  00002AAAAC5032C8  Unknown               Unknown  Unknown
+libmpich_intel.so  00002AAAAC411F66  MPI_Abort             Unknown  Unknown
+libmpich_intel.so  00002AAAAC459BA5  mpi_abort             Unknown  Unknown
+fms_MOM_SIS.x      0000000001C1101F  mpp_mod_mp_mpp_er          52  mpp_util_mpi.inc
+fms_MOM_SIS.x      0000000001C070ED  mpp_mod_mp_mpp_in        1379  mpp_util.inc
+fms_MOM_SIS.x      000000000041C88C  MAIN__                    420  coupler_main.F90
+fms_MOM_SIS.x      000000000040D6EE  Unknown               Unknown  Unknown
+libc-2.22.so       00002AAAAD2E66D5  __libc_start_main     Unknown  Unknown
+fms_MOM_SIS.x      000000000040D609  Unknown               Unknown  Unknown
+_pmiu_daemon(SIGCHLD): [NID 00001] [c0-0c0s0n1] [Wed Oct 14 17:42:07 2020] PE RANK 0 exit signal Aborted
+[NID 00001] 2020-10-14 17:42:07 Apid 139773522: initiated application termination
+set begindate = `$time_stamp -bf digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -bf digital
+if ( no_time_stamp ==  ) set begindate = tmp`date '+%j%H%M%S'`
+set enddate = `$time_stamp -ef digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -ef digital
+if ( no_time_stamp ==  ) set enddate = tmp`date '+%j%H%M%S'`
+if ( -f time_stamp.out ) rm -f time_stamp.out
+cd RESTART
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/input.nml .
+cp: cannot stat '/home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/input.nml': No such file or directory
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/diag_table .
+if ( 24 > 1 ) then
+ncecat: No match.
+rm: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/history ) mkdir history
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/ascii ) mkdir ascii
+foreach out ( `ls *.out` )
+ls: No match.
+if ( 24 > 1 ) then
+mv: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+foreach ncfile ( `/bin/ls *.nc` )
+/bin/ls: No match.
+echo 1960 completed
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1960 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1960
+mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1960
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1960/
+echo RESTART_folder generated
+echo restart data of previous year copied to INPUT folder
+@ year++
+echo end_of_run
+echo NOTE: Natural end-of-script.
+end
+while ( 1961 < = 1962 )
+echo 1961
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT
+endif
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/input.nml ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/data_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/diag_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/field_table ) then
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART ) then
+cp -f /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/.
+endif
+@ iyr = 1961
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/U/u_10.1961.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/u_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/V/v_10.1961.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/v_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/Q/q_10.1961.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/q_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/T/t_10.1961.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/t_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/SLP/slp.1961.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/slp_.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/RAD/ncar_rad.1961.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/ncar_rad_clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/PRECIP/ncar_precip.1961.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/ncar_precip_clim.nc
+/home/DESK/anika/MOM_SIS/exp/preprocessing.csh
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read field_table: No such file or directory
+sed: can't read field_table: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+if ( MOM_SIS == CM2M & 24 != 45 ) then
+if ( MOM_SIS == ESM2M & 24 != 90 ) then
+if ( MOM_SIS == ICCM & 24 != 54 ) then
+if ( om3_core1 == atlantic1 & 24 != 24 ) then
+if ( om3_core1 == mom4p1_ebm1 & 24 != 17 ) then
+set runCommand = time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+echo About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+if ( 0 ) then
+aprun -n 24 /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+
+FATAL from PE    0: get_ascii_file_num_lines: File input.nml does not exist.
+
+Rank 0 [Wed Oct 14 17:42:20 2020] [c0-0c0s0n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      0000000001D6F25A  Unknown               Unknown  Unknown
+libpthread-2.22.s  00002AAAAD0B9B20  Unknown               Unknown  Unknown
+libc-2.22.so       00002AAAAD2FA8C7  gsignal               Unknown  Unknown
+libc-2.22.so       00002AAAAD2FBC9A  abort                 Unknown  Unknown
+libmpich_intel.so  00002AAAAC5032C8  Unknown               Unknown  Unknown
+libmpich_intel.so  00002AAAAC411F66  MPI_Abort             Unknown  Unknown
+libmpich_intel.so  00002AAAAC459BA5  mpi_abort             Unknown  Unknown
+fms_MOM_SIS.x      0000000001C1101F  mpp_mod_mp_mpp_er          52  mpp_util_mpi.inc
+fms_MOM_SIS.x      0000000001C070ED  mpp_mod_mp_mpp_in        1379  mpp_util.inc
+fms_MOM_SIS.x      000000000041C88C  MAIN__                    420  coupler_main.F90
+fms_MOM_SIS.x      000000000040D6EE  Unknown               Unknown  Unknown
+libc-2.22.so       00002AAAAD2E66D5  __libc_start_main     Unknown  Unknown
+fms_MOM_SIS.x      000000000040D609  Unknown               Unknown  Unknown
+_pmiu_daemon(SIGCHLD): [NID 00001] [c0-0c0s0n1] [Wed Oct 14 17:42:20 2020] PE RANK 0 exit signal Aborted
+[NID 00001] 2020-10-14 17:42:20 Apid 139773595: initiated application termination
+set begindate = `$time_stamp -bf digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -bf digital
+if ( no_time_stamp ==  ) set begindate = tmp`date '+%j%H%M%S'`
+set enddate = `$time_stamp -ef digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -ef digital
+if ( no_time_stamp ==  ) set enddate = tmp`date '+%j%H%M%S'`
+if ( -f time_stamp.out ) rm -f time_stamp.out
+cd RESTART
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/input.nml .
+cp: cannot stat '/home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/input.nml': No such file or directory
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/diag_table .
+if ( 24 > 1 ) then
+ncecat: No match.
+rm: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/history ) mkdir history
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/ascii ) mkdir ascii
+foreach out ( `ls *.out` )
+ls: No match.
+if ( 24 > 1 ) then
+mv: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+foreach ncfile ( `/bin/ls *.nc` )
+/bin/ls: No match.
+echo 1961 completed
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1961 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1961
+mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1961
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1961/
+echo RESTART_folder generated
+echo restart data of previous year copied to INPUT folder
+@ year++
+echo end_of_run
+echo NOTE: Natural end-of-script.
+end
+while ( 1962 < = 1962 )
+echo 1962
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT
+endif
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/input.nml ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/data_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/diag_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/field_table ) then
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART ) then
+cp -f /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/.
+endif
+@ iyr = 1962
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/U/u_10.1962.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/u_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/V/v_10.1962.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/v_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/Q/q_10.1962.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/q_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/T/t_10.1962.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/t_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/SLP/slp.1962.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/slp_.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/RAD/ncar_rad.1962.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/ncar_rad_clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/PRECIP/ncar_precip.1962.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/INPUT/ncar_precip_clim.nc
+/home/DESK/anika/MOM_SIS/exp/preprocessing.csh
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read field_table: No such file or directory
+sed: can't read field_table: No such file or directory
+sed: can't read input.nml: No such file or directory
+sed: can't read input.nml: No such file or directory
+if ( MOM_SIS == CM2M & 24 != 45 ) then
+if ( MOM_SIS == ESM2M & 24 != 90 ) then
+if ( MOM_SIS == ICCM & 24 != 54 ) then
+if ( om3_core1 == atlantic1 & 24 != 24 ) then
+if ( om3_core1 == mom4p1_ebm1 & 24 != 17 ) then
+set runCommand = time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+echo About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+if ( 0 ) then
+aprun -n 24 /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.105145.sdb 2>&1
+
+FATAL from PE    0: get_ascii_file_num_lines: File input.nml does not exist.
+
+Rank 0 [Wed Oct 14 17:42:34 2020] [c0-0c0s0n1] application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      0000000001D6F25A  Unknown               Unknown  Unknown
+libpthread-2.22.s  00002AAAAD0B9B20  Unknown               Unknown  Unknown
+libc-2.22.so       00002AAAAD2FA8C7  gsignal               Unknown  Unknown
+libc-2.22.so       00002AAAAD2FBC9A  abort                 Unknown  Unknown
+libmpich_intel.so  00002AAAAC5032C8  Unknown               Unknown  Unknown
+libmpich_intel.so  00002AAAAC411F66  MPI_Abort             Unknown  Unknown
+libmpich_intel.so  00002AAAAC459BA5  mpi_abort             Unknown  Unknown
+fms_MOM_SIS.x      0000000001C1101F  mpp_mod_mp_mpp_er          52  mpp_util_mpi.inc
+fms_MOM_SIS.x      0000000001C070ED  mpp_mod_mp_mpp_in        1379  mpp_util.inc
+fms_MOM_SIS.x      000000000041C88C  MAIN__                    420  coupler_main.F90
+fms_MOM_SIS.x      000000000040D6EE  Unknown               Unknown  Unknown
+libc-2.22.so       00002AAAAD2E66D5  __libc_start_main     Unknown  Unknown
+fms_MOM_SIS.x      000000000040D609  Unknown               Unknown  Unknown
+_pmiu_daemon(SIGCHLD): [NID 00001] [c0-0c0s0n1] [Wed Oct 14 17:42:34 2020] PE RANK 0 exit signal Aborted
+[NID 00001] 2020-10-14 17:42:34 Apid 139773688: initiated application termination
+set begindate = `$time_stamp -bf digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -bf digital
+if ( no_time_stamp ==  ) set begindate = tmp`date '+%j%H%M%S'`
+set enddate = `$time_stamp -ef digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -ef digital
+if ( no_time_stamp ==  ) set enddate = tmp`date '+%j%H%M%S'`
+if ( -f time_stamp.out ) rm -f time_stamp.out
+cd RESTART
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/input.nml .
+cp: cannot stat '/home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/input.nml': No such file or directory
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/diag_table .
+if ( 24 > 1 ) then
+ncecat: No match.
+rm: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/history ) mkdir history
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/ascii ) mkdir ascii
+foreach out ( `ls *.out` )
+ls: No match.
+if ( 24 > 1 ) then
+mv: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+foreach ncfile ( `/bin/ls *.nc` )
+/bin/ls: No match.
+echo 1962 completed
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1962 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1962
+mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1962
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp2/om3_core1/RESTART_1962/
+echo RESTART_folder generated
+echo restart data of previous year copied to INPUT folder
+@ year++
+echo end_of_run
+echo NOTE: Natural end-of-script.
+end
+while ( 1963 < = 1962 )
+exit 0
