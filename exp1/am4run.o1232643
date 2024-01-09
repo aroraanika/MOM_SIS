@@ -1,0 +1,42 @@
+make: Nothing to be done for 'all'.
+SUCEESS
+1980
+About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+0.004u 0.004s 0:00.52 0.0%	0+0k 0+0io 0pf+0w
+1980 completed
+RESTART_folder generated
+restart data of previous year copied to INPUT folder
+end_of_run
+NOTE: Natural end-of-script.
+1981
+About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+0.000u 0.004s 0:00.50 0.0%	0+0k 0+0io 0pf+0w
+1981 completed
+RESTART_folder generated
+restart data of previous year copied to INPUT folder
+end_of_run
+NOTE: Natural end-of-script.
+1982
+About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+0.004u 0.000s 0:00.50 0.0%	0+0k 0+0io 0pf+0w
+1982 completed
+RESTART_folder generated
+restart data of previous year copied to INPUT folder
+end_of_run
+NOTE: Natural end-of-script.
+1983
+About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+0.004u 0.000s 0:00.50 0.0%	0+0k 0+0io 0pf+0w
+1983 completed
+RESTART_folder generated
+restart data of previous year copied to INPUT folder
+end_of_run
+NOTE: Natural end-of-script.
+1984
+About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+0.000u 0.004s 0:00.50 0.0%	0+0k 0+0io 0pf+0w
+1984 completed
+RESTART_folder generated
+restart data of previous year copied to INPUT folder
+end_of_run
+NOTE: Natural end-of-script.

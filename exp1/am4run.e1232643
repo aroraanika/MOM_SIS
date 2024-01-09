@@ -1,0 +1,400 @@
+ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'pbs'
+Currently Loaded Modulefiles:
+  1) modules/3.2.11.2
+  2) alps/6.4.3-6.0.4.1_2.1__g92a2fc0.ari
+  3) Base-opts/2.4.123-6.0.4.0_10.1__g6460790.ari
+  4) intel/17.0.5.239
+  5) craype-network-aries
+  6) craype/2.5.13
+  7) cray-mpich/7.6.3
+  8) cray-libsci/17.09.1
+  9) pmi/5.0.12
+ 10) atp/2.1.1
+ 11) rca/2.2.11-6.0.4.0_13.2__g84de67a.ari
+ 12) perftools-base/6.5.2
+ 13) PrgEnv-intel/6.0.4
+ 14) cray-hdf5/1.10.0.3
+ 15) cray-netcdf/4.4.1.1.3
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/grid_spec.nc ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ocean_temp_salt.res.nc ) then
+set makeFile = Make_MOM_SIS
+cd /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS
+make -f Make_MOM_SIS
+if ( 0 != 0 ) then
+echo SUCEESS
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1
+@ year = 1980
+while ( 1980 < = 1984 )
+echo 1980
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT
+endif
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/input.nml ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/data_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/diag_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/field_table ) then
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART ) then
+cp -f /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/.
+endif
+@ iyr = 1980
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/U/u_10.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/u_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/V/v_10.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/v_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/Q/q_10.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/q_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/T/t_10.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/t_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/SLP/slp.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/slp_.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/RAD/ncar_rad.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ncar_rad_clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/PRECIP/ncar_precip.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ncar_precip_clim.nc
+/home/DESK/anika/MOM_SIS/exp/preprocessing.csh
+if ( MOM_SIS == CM2M & 24 != 45 ) then
+if ( MOM_SIS == ESM2M & 24 != 90 ) then
+if ( MOM_SIS == ICCM & 24 != 54 ) then
+if ( om3_core1 == atlantic1 & 24 != 24 ) then
+if ( om3_core1 == mom4p1_ebm1 & 24 != 17 ) then
+set runCommand = time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+echo About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+if ( 0 ) then
+aprun -n 24 /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+aprun: This node is configured to run without ALPS services
+aprun: Exiting due to errors. Application aborted
+getBatchJobId: can't find ALPS shared files: Cannot stat(2) /alps_shared: No such file or directory
+set begindate = `$time_stamp -bf digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -bf digital
+if ( no_time_stamp ==  ) set begindate = tmp`date '+%j%H%M%S'`
+set enddate = `$time_stamp -ef digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -ef digital
+if ( no_time_stamp ==  ) set enddate = tmp`date '+%j%H%M%S'`
+if ( -f time_stamp.out ) rm -f time_stamp.out
+cd RESTART
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/input.nml .
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/field_table .
+if ( 24 > 1 ) then
+ncecat: No match.
+rm: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/history ) mkdir history
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/ascii ) mkdir ascii
+foreach out ( `ls *.out` )
+ls: No match.
+if ( 24 > 1 ) then
+mv: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+foreach ncfile ( `/bin/ls *.nc` )
+/bin/ls: No match.
+echo 1980 completed
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/
+echo RESTART_folder generated
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1980/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/
+echo restart data of previous year copied to INPUT folder
+@ year++
+echo end_of_run
+echo NOTE: Natural end-of-script.
+end
+while ( 1981 < = 1984 )
+echo 1981
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT
+endif
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/input.nml ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/data_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/diag_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/field_table ) then
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART ) then
+cp -f /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/.
+endif
+@ iyr = 1981
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/U/u_10.1981.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/u_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/V/v_10.1981.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/v_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/Q/q_10.1981.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/q_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/T/t_10.1981.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/t_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/SLP/slp.1981.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/slp_.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/RAD/ncar_rad.1981.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ncar_rad_clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/PRECIP/ncar_precip.1981.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ncar_precip_clim.nc
+/home/DESK/anika/MOM_SIS/exp/preprocessing.csh
+if ( MOM_SIS == CM2M & 24 != 45 ) then
+if ( MOM_SIS == ESM2M & 24 != 90 ) then
+if ( MOM_SIS == ICCM & 24 != 54 ) then
+if ( om3_core1 == atlantic1 & 24 != 24 ) then
+if ( om3_core1 == mom4p1_ebm1 & 24 != 17 ) then
+set runCommand = time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+echo About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+if ( 0 ) then
+aprun -n 24 /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+aprun: This node is configured to run without ALPS services
+aprun: Exiting due to errors. Application aborted
+getBatchJobId: can't find ALPS shared files: Cannot stat(2) /alps_shared: No such file or directory
+set begindate = `$time_stamp -bf digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -bf digital
+if ( no_time_stamp ==  ) set begindate = tmp`date '+%j%H%M%S'`
+set enddate = `$time_stamp -ef digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -ef digital
+if ( no_time_stamp ==  ) set enddate = tmp`date '+%j%H%M%S'`
+if ( -f time_stamp.out ) rm -f time_stamp.out
+cd RESTART
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/input.nml .
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/field_table .
+if ( 24 > 1 ) then
+ncecat: No match.
+rm: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/history ) mkdir history
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/ascii ) mkdir ascii
+foreach out ( `ls *.out` )
+ls: No match.
+if ( 24 > 1 ) then
+mv: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+foreach ncfile ( `/bin/ls *.nc` )
+/bin/ls: No match.
+echo 1981 completed
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/
+echo RESTART_folder generated
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1981/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/
+echo restart data of previous year copied to INPUT folder
+@ year++
+echo end_of_run
+echo NOTE: Natural end-of-script.
+end
+while ( 1982 < = 1984 )
+echo 1982
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT
+endif
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/input.nml ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/data_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/diag_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/field_table ) then
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART ) then
+cp -f /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/.
+endif
+@ iyr = 1982
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/U/u_10.1982.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/u_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/V/v_10.1982.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/v_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/Q/q_10.1982.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/q_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/T/t_10.1982.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/t_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/SLP/slp.1982.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/slp_.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/RAD/ncar_rad.1982.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ncar_rad_clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/PRECIP/ncar_precip.1982.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ncar_precip_clim.nc
+/home/DESK/anika/MOM_SIS/exp/preprocessing.csh
+if ( MOM_SIS == CM2M & 24 != 45 ) then
+if ( MOM_SIS == ESM2M & 24 != 90 ) then
+if ( MOM_SIS == ICCM & 24 != 54 ) then
+if ( om3_core1 == atlantic1 & 24 != 24 ) then
+if ( om3_core1 == mom4p1_ebm1 & 24 != 17 ) then
+set runCommand = time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+echo About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+if ( 0 ) then
+aprun -n 24 /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+aprun: This node is configured to run without ALPS services
+aprun: Exiting due to errors. Application aborted
+getBatchJobId: can't find ALPS shared files: Cannot stat(2) /alps_shared: No such file or directory
+set begindate = `$time_stamp -bf digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -bf digital
+if ( no_time_stamp ==  ) set begindate = tmp`date '+%j%H%M%S'`
+set enddate = `$time_stamp -ef digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -ef digital
+if ( no_time_stamp ==  ) set enddate = tmp`date '+%j%H%M%S'`
+if ( -f time_stamp.out ) rm -f time_stamp.out
+cd RESTART
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/input.nml .
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/field_table .
+if ( 24 > 1 ) then
+ncecat: No match.
+rm: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/history ) mkdir history
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/ascii ) mkdir ascii
+foreach out ( `ls *.out` )
+ls: No match.
+if ( 24 > 1 ) then
+mv: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+foreach ncfile ( `/bin/ls *.nc` )
+/bin/ls: No match.
+echo 1982 completed
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/
+echo RESTART_folder generated
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1982/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/
+echo restart data of previous year copied to INPUT folder
+@ year++
+echo end_of_run
+echo NOTE: Natural end-of-script.
+end
+while ( 1983 < = 1984 )
+echo 1983
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT
+endif
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/input.nml ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/data_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/diag_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/field_table ) then
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART ) then
+cp -f /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/.
+endif
+@ iyr = 1983
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/U/u_10.1983.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/u_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/V/v_10.1983.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/v_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/Q/q_10.1983.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/q_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/T/t_10.1983.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/t_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/SLP/slp.1983.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/slp_.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/RAD/ncar_rad.1983.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ncar_rad_clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/PRECIP/ncar_precip.1983.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ncar_precip_clim.nc
+/home/DESK/anika/MOM_SIS/exp/preprocessing.csh
+if ( MOM_SIS == CM2M & 24 != 45 ) then
+if ( MOM_SIS == ESM2M & 24 != 90 ) then
+if ( MOM_SIS == ICCM & 24 != 54 ) then
+if ( om3_core1 == atlantic1 & 24 != 24 ) then
+if ( om3_core1 == mom4p1_ebm1 & 24 != 17 ) then
+set runCommand = time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+echo About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+if ( 0 ) then
+aprun -n 24 /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+aprun: This node is configured to run without ALPS services
+aprun: Exiting due to errors. Application aborted
+getBatchJobId: can't find ALPS shared files: Cannot stat(2) /alps_shared: No such file or directory
+set begindate = `$time_stamp -bf digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -bf digital
+if ( no_time_stamp ==  ) set begindate = tmp`date '+%j%H%M%S'`
+set enddate = `$time_stamp -ef digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -ef digital
+if ( no_time_stamp ==  ) set enddate = tmp`date '+%j%H%M%S'`
+if ( -f time_stamp.out ) rm -f time_stamp.out
+cd RESTART
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/input.nml .
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/field_table .
+if ( 24 > 1 ) then
+ncecat: No match.
+rm: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/history ) mkdir history
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/ascii ) mkdir ascii
+foreach out ( `ls *.out` )
+ls: No match.
+if ( 24 > 1 ) then
+mv: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+foreach ncfile ( `/bin/ls *.nc` )
+/bin/ls: No match.
+echo 1983 completed
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/
+echo RESTART_folder generated
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1983/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/
+echo restart data of previous year copied to INPUT folder
+@ year++
+echo end_of_run
+echo NOTE: Natural end-of-script.
+end
+while ( 1984 < = 1984 )
+echo 1984
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT
+endif
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/input.nml ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/data_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/diag_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/field_table ) then
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART ) then
+cp -f /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/.
+endif
+@ iyr = 1984
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/U/u_10.1984.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/u_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/V/v_10.1984.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/v_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/Q/q_10.1984.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/q_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/T/t_10.1984.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/t_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/SLP/slp.1984.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/slp_.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/RAD/ncar_rad.1984.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ncar_rad_clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/PRECIP/ncar_precip.1984.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ncar_precip_clim.nc
+/home/DESK/anika/MOM_SIS/exp/preprocessing.csh
+if ( MOM_SIS == CM2M & 24 != 45 ) then
+if ( MOM_SIS == ESM2M & 24 != 90 ) then
+if ( MOM_SIS == ICCM & 24 != 54 ) then
+if ( om3_core1 == atlantic1 & 24 != 24 ) then
+if ( om3_core1 == mom4p1_ebm1 & 24 != 17 ) then
+set runCommand = time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+echo About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+if ( 0 ) then
+aprun -n 24 /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232643.sdb 2>&1
+aprun: This node is configured to run without ALPS services
+aprun: Exiting due to errors. Application aborted
+getBatchJobId: can't find ALPS shared files: Cannot stat(2) /alps_shared: No such file or directory
+set begindate = `$time_stamp -bf digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -bf digital
+if ( no_time_stamp ==  ) set begindate = tmp`date '+%j%H%M%S'`
+set enddate = `$time_stamp -ef digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -ef digital
+if ( no_time_stamp ==  ) set enddate = tmp`date '+%j%H%M%S'`
+if ( -f time_stamp.out ) rm -f time_stamp.out
+cd RESTART
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/input.nml .
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/field_table .
+if ( 24 > 1 ) then
+ncecat: No match.
+rm: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/history ) mkdir history
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/ascii ) mkdir ascii
+foreach out ( `ls *.out` )
+ls: No match.
+if ( 24 > 1 ) then
+mv: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+foreach ncfile ( `/bin/ls *.nc` )
+/bin/ls: No match.
+echo 1984 completed
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/
+echo RESTART_folder generated
+cp /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART_1984/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/
+echo restart data of previous year copied to INPUT folder
+@ year++
+echo end_of_run
+echo NOTE: Natural end-of-script.
+end
+while ( 1985 < = 1984 )
+exit 0

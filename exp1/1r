@@ -1,0 +1,4 @@
+#rm -r ../exec/ncrc2.intel
+#rm momrun.*
+#./MOM_compile.csh
+qsub submit.sh

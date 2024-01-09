@@ -1,0 +1,396 @@
+ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'pbs'
+Currently Loaded Modulefiles:
+  1) modules/3.2.11.2
+  2) alps/6.4.3-6.0.4.1_2.1__g92a2fc0.ari
+  3) sysadm/2.4.119-6.0.4.0_14.2__gcab7125.ari
+  4) nodehealth/5.4.0-6.0.4.0_12.4__g3427370.ari
+  5) nodestat/2.3.78-6.0.4.0_7.2__gbe57af8.ari
+  6) sdb/3.3.729-6.0.4.0_16.2__gb405b22.ari
+  7) llm/21.3.446-6.0.4.0_20.1__gbe30105.ari
+  8) system-config/3.4.2456-6.0.4.1_13.1__g56652eb.ari
+  9) Base-opts/2.4.123-6.0.4.0_10.1__g6460790.ari
+ 10) intel/17.0.5.239
+ 11) craype-network-aries
+ 12) craype/2.5.13
+ 13) cray-mpich/7.6.3
+ 14) cray-libsci/17.09.1
+ 15) pmi/5.0.12
+ 16) atp/2.1.1
+ 17) rca/2.2.11-6.0.4.0_13.2__g84de67a.ari
+ 18) perftools-base/6.5.2
+ 19) PrgEnv-intel/6.0.4
+ 20) cray-hdf5/1.10.0.3
+ 21) cray-netcdf/4.4.1.1.3
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/grid_spec.nc ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ocean_temp_salt.res.nc ) then
+set makeFile = Make_MOM_SIS
+cd /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS
+make -f Make_MOM_SIS
+if ( 0 != 0 ) then
+echo SUCEESS
+cd /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1
+@ year = 1980
+while ( 1980 < = 1984 )
+echo 1980
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT
+endif
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/input.nml ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/data_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/diag_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/field_table ) then
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART ) then
+cp -f /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/coupler.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/data_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/diag_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~1~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~2~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~3~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ferret.jnl.~4~ /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/field_table /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_model.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ice_ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/input.nml /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_age.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_barotropic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_bih_friction.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_con_temp.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_density.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_frazil.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutral.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_neutralB.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_residency.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sbc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_sigma_transport.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_temp_salt.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_thickness.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_tracer.res /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocean_velocity_advection.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_abiotic_local.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/RESTART/ocmip2_cfc_airsea_flux.res.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/.
+endif
+@ iyr = 1980
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/U/u_10.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/u_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/V/v_10.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/v_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/Q/q_10.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/q_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/T/t_10.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/t_10_mod.clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/SLP/slp.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/slp_.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/RAD/ncar_rad.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ncar_rad_clim.nc
+cp -f /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/CIAF/PRECIP/ncar_precip.1980.05APR2010.nc /home/DESK/anika/MOM_SIS/work_IAF_exp1/om3_core1/INPUT/ncar_precip_clim.nc
+/home/DESK/anika/MOM_SIS/exp/preprocessing.csh
+if ( MOM_SIS == CM2M & 24 != 45 ) then
+if ( MOM_SIS == ESM2M & 24 != 90 ) then
+if ( MOM_SIS == ICCM & 24 != 54 ) then
+if ( om3_core1 == atlantic1 & 24 != 24 ) then
+if ( om3_core1 == mom4p1_ebm1 & 24 != 17 ) then
+set runCommand = time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232645.sdb 2>&1
+echo About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232645.sdb 2>&1
+if ( 0 ) then
+aprun -n 24 /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.1232645.sdb 2>&1
+ Entering coupler_init at 20210915 143911.944
+ Starting initializing ensemble_manager at 20210915 143911.984
+ Finished initializing ensemble_manager at 20210915 143912.022
+ Starting to initialize diag_manager at 20210915 143912.043
+ Finished initializing diag_manager at 20210915 143912.108
+ Starting to initialize tracer_manager at 20210915 143912.147
+ Finished initializing tracer_manager at 20210915 143912.157
+ Starting to initialize coupler_types at 20210915 143912.157
+ Finished initializing coupler_types at 20210915 143912.158
+ Beginning to initialize component models at 20210915 143912.158
+ Starting to initialize atmospheric model at 20210915 143912.158
+ Finished initializing atmospheric model at 20210915 143912.261
+ Starting to initialize land model at 20210915 143912.468
+ Finished initializing land model at 20210915 143912.502
+ Starting to initialize ice model at 20210915 143912.554
+ Finished initializing ice model at 20210915 143913.243
+ Starting to initialize ocean model at 20210915 143913.291
+
+WARNING from PE    0: diag_manager_mod::register_static_field: module/field ocean_model/diff_cbt_back is STATIC.  Cannot perform time operations average, maximum, or minimum on static fields.  Setting the time operation to "NONE" for this field.
+
+
+WARNING from PE    0: diag_manager_mod::register_static_field: module/field ocean_model/form_drag_aiki_gradH_scale is STATIC.  Cannot perform time operations average, maximum, or minimum on static fields.  Setting the time operation to "NONE" for this field.
+
+ Finished initializing ocean model at 20210915 143931.421
+ Starting to initialize data_override at 20210915 143931.421
+ Finished initializing data_override at 20210915 143931.509
+ Finished initializing component models at 20210915 143931.509
+ Starting to initialize flux_exchange at 20210915 143931.509
+ Finsihed initializing flux_exchange at 20210915 143931.924
+ Exiting coupler_init at 20210915 143932.095
+aprun: Apid 185667676: Caught signal Terminated, sending to application
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000025251D2  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CF66C  ocean_submesoscal        2453  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000025251CC  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CF66C  ocean_submesoscal        2453  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CFF47  ocean_submesoscal        2462  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000000CD549A  ocean_util_mod_mp         860  ocean_util.F90
+fms_MOM_SIS.x      00000000009B9D57  ocean_submesoscal        1767  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC00C  ocean_submesoscal        1228  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009D0ABE  ocean_submesoscal        2458  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009D0F00  ocean_submesoscal        2480  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000000CD5449  ocean_util_mod_mp         860  ocean_util.F90
+fms_MOM_SIS.x      00000000009B9D57  ocean_submesoscal        1767  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC00C  ocean_submesoscal        1228  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009D07B7  ocean_submesoscal        2473  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009D07E6  ocean_submesoscal        2475  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000000CD545D  ocean_util_mod_mp         860  ocean_util.F90
+fms_MOM_SIS.x      00000000009B9D57  ocean_submesoscal        1767  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC00C  ocean_submesoscal        1228  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000025251D2  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CF66C  ocean_submesoscal        2453  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CFF55  ocean_submesoscal        2462  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002525199  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CF66C  ocean_submesoscal        2453  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000025251D2  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CF66C  ocean_submesoscal        2453  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000025251D8  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CFD91  ocean_submesoscal        2458  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000025252DB  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CF66C  ocean_submesoscal        2453  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000025251CC  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CFD91  ocean_submesoscal        2458  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009D0544  ocean_submesoscal        2473  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000252530A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CFD91  ocean_submesoscal        2458  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000025252EC  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CF66C  ocean_submesoscal        2453  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000025251DE  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CF66C  ocean_submesoscal        2453  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000025252DB  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CF66C  ocean_submesoscal        2453  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000025251C6  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CF66C  ocean_submesoscal        2453  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+fms_MOM_SIS.x      000000000245211A  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000001F63F80  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000025251D8  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      00000000009CF66C  ocean_submesoscal        2453  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009CAB96  ocean_submesoscal        2344  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000009AC110  ocean_submesoscal        1237  ocean_submesoscale.F90
+fms_MOM_SIS.x      00000000005C0B26  ocean_model_mod_m        1792  ocean_model.F90
+fms_MOM_SIS.x      00000000004873BE  MAIN__                    694  coupler_main.F90
+fms_MOM_SIS.x      000000000040A31E  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      0000000002534A39  Unknown               Unknown  Unknown
+fms_MOM_SIS.x      000000000040A209  Unknown               Unknown  Unknown

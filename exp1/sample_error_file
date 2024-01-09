@@ -1,0 +1,563 @@
+ModuleCmd_Load.c(244):ERROR:105: Unable to locate a modulefile for 'pbs'
+Currently Loaded Modulefiles:
+  1) modules/3.2.11.1
+  2) alps/6.4.3-6.0.4.1_2.1__g92a2fc0.ari
+  3) sysadm/2.4.119-6.0.4.0_14.2__gcab7125.ari
+  4) nodehealth/5.4.0-6.0.4.0_12.4__g3427370.ari
+  5) nodestat/2.3.78-6.0.4.0_7.2__gbe57af8.ari
+  6) sdb/3.3.729-6.0.4.0_16.2__gb405b22.ari
+  7) llm/21.3.446-6.0.4.0_20.1__gbe30105.ari
+  8) system-config/3.4.2456-6.0.4.1_13.1__g56652eb.ari
+  9) Base-opts/2.4.123-6.0.4.0_10.1__g6460790.ari
+ 10) intel/17.0.5.239
+ 11) craype-network-aries
+ 12) craype/2.5.13
+ 13) cray-mpich/7.6.3
+ 14) cray-netcdf/4.4.1.1.3
+ 15) cray-libsci/17.09.1
+ 16) pmi/5.0.12
+ 17) atp/2.1.1
+ 18) rca/2.2.11-6.0.4.0_13.2__g84de67a.ari
+ 19) perftools-base/6.5.2
+ 20) PrgEnv-intel/6.0.4
+ 21) cray-hdf5/1.10.0.3
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF/om3_core1 ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF/om3_core1
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/RESTART ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/RESTART
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/INPUT/grid_spec.nc ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/INPUT/ocean_temp_salt.res.nc ) then
+set makeFile = Make_MOM_SIS
+cd /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS
+make -f Make_MOM_SIS
+if ( 0 != 0 ) then
+cd /home/DESK/anika/MOM_SIS/work_IAF/om3_core1
+@ year = 1987
+while ( 1987 < = 1988 )
+echo 1987
+if ( 1987 == 1987 ) then
+if ( ! -d /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/INPUT ) mkdir -p /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/INPUT
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/INPUT/input.nml ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/INPUT/data_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/INPUT/diag_table ) then
+if ( ! -e /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/INPUT/field_table ) then
+cp /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/INPUT/input.nml input.nml
+cp /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/INPUT/data_table data_table
+cp /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/INPUT/diag_table diag_table
+cp /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/INPUT/field_table field_table
+else
+@ iyr = 1987
+/home/DESK/anika/MOM_SIS/exp/preprocessing.csh
+if ( MOM_SIS == CM2M & 24 != 45 ) then
+if ( MOM_SIS == ESM2M & 24 != 90 ) then
+if ( MOM_SIS == ICCM & 24 != 54 ) then
+if ( om3_core1 == atlantic1 & 24 != 24 ) then
+if ( om3_core1 == mom4p1_ebm1 & 24 != 17 ) then
+set runCommand = time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.650979.sdb 2>&1
+echo About to run the command time aprun -n 24  /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.650979.sdb 2>&1
+if ( 0 ) then
+aprun -n 24 /home/DESK/anika/MOM_SIS/exec/ncrc2.intel/MOM_SIS/fms_MOM_SIS.x > output.650979.sdb 2>&1
+ Entering coupler_init at 20200819 161715.710
+ Starting initializing ensemble_manager at 20200819 161715.757
+ Finished initializing ensemble_manager at 20200819 161715.793
+ Starting to initialize diag_manager at 20200819 161715.822
+ Finished initializing diag_manager at 20200819 161715.888
+
+WARNING from PE    0: MPP_OPEN: File time_stamp.out opened WRONLY already exists!
+
+ Starting to initialize tracer_manager at 20200819 161715.907
+ Finished initializing tracer_manager at 20200819 161715.915
+ Starting to initialize coupler_types at 20200819 161715.915
+ Finished initializing coupler_types at 20200819 161715.917
+ Beginning to initialize component models at 20200819 161715.917
+ Starting to initialize atmospheric model at 20200819 161715.917
+ Finished initializing atmospheric model at 20200819 161716.014
+ Starting to initialize land model at 20200819 161716.263
+ Finished initializing land model at 20200819 161716.294
+ Starting to initialize ice model at 20200819 161716.355
+ Finished initializing ice model at 20200819 161717.083
+ Starting to initialize ocean model at 20200819 161717.135
+
+WARNING from PE    0: diag_manager_mod::register_static_field: module/field ocean_model/diff_cbt_back is STATIC.  Cannot perform time operations average, maximum, or minimum on static fields.  Setting the time operation to "NONE" for this field.
+
+
+WARNING from PE    0: diag_manager_mod::register_static_field: module/field ocean_model/form_drag_aiki_gradH_scale is STATIC.  Cannot perform time operations average, maximum, or minimum on static fields.  Setting the time operation to "NONE" for this field.
+
+ Finished initializing ocean model at 20200819 161738.359
+ Starting to initialize data_override at 20200819 161738.359
+ Finished initializing data_override at 20200819 161738.477
+ Finished initializing component models at 20200819 161738.477
+ Starting to initialize flux_exchange at 20200819 161738.477
+ Finsihed initializing flux_exchange at 20200819 161738.888
+ Exiting coupler_init at 20200819 161738.979
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/temp_totflux) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/salt_totflux) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/temp_th_tendency) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/salt_th_tendency) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/eta_nonsteric) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/eta_steric) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/eta_tend) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/salt_adv_flux_x_int_z) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/salt_adv_flux_y_int_z) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/temp_adv_flux_x_int_z) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/temp_adv_flux_y_int_z) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/temp_xflux_gm_modes_int_z) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/temp_yflux_gm_modes_int_z) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/calve) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/fprec_heat) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/calve_heat) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/sfc_hflux) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/sfc_salt_flux) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/sfc_hflux_river) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/sfc_salt_flux_river) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/mass_xlandinsert) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/buoy_freq) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/aiso_lap) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/convect_heating) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/convect_salt) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/grav_agm_dv_sx_drhodx) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/grav_agm_dv_sy_drhody) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/horz_lap_diss) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_ocmip2_abiotic/sc_co2_ocmip2_abiotic) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/eta_nonsteric) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/eta_steric) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/eta_tend) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: one axis has auxiliary but the corresponding field is NOT found in file ocean_surf
+
+
+WARNING from PE    0: MPP_OPEN: File RESTART/coupler.res opened WRONLY already exists!
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/eta_steric_global) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_model/eta_nonsteric_global) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_residency/residency_in_region_age_surface) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_residency/residency_in_region_age_surface_inv) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_residency/residency_in_region_age_bottom) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_residency/residency_in_region_age_bottom_inv) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_residency/residency_in_region_kppbl_nil) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_residency/residency_in_region_kppbl_14d) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_residency/residency_in_region_kppbl_frc) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_residency/residency_in_region_kppbl_irr_14d) NOT registered
+
+
+WARNING from PE    0: diag_util_mod::opening_file: module/field_name (ocean_residency/residency_in_region_temp_15_20) NOT registered
+
+                              20200819 162036.278: Memuse(MB) at Memory HiWaterMark=  1.156E+03  1.187E+03  6.391E+00  1.165E+03
+set begindate = `$time_stamp -bf digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -bf digital
+if ( 19910101 ==  ) set begindate = tmp`date '+%j%H%M%S'`
+set enddate = `$time_stamp -ef digital`
+/home/DESK/anika/MOM_SIS/bin/time_stamp.csh -ef digital
+if ( 19910105 ==  ) set enddate = tmp`date '+%j%H%M%S'`
+if ( -f time_stamp.out ) rm -f time_stamp.out
+rm -f time_stamp.out
+cd RESTART
+cp /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/input.nml .
+cp /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/data_table /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/diag_table /home/DESK/anika/MOM_SIS/work_IAF/om3_core1/field_table .
+if ( 24 > 1 ) then
+ncecat: No match.
+rm: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls: No match.
+foreach file ( )
+endif
+cd /home/DESK/anika/MOM_SIS/work_IAF/om3_core1
+mkdir history
+mkdir: cannot create directory 'history': File exists
+mkdir ascii
+mkdir: cannot create directory 'ascii': File exists
+foreach out ( `ls *.out` )
+ls diag_integral.out logfile.000000.out
+mv diag_integral.out ascii/19910101.diag_integral.out
+end
+mv logfile.000000.out ascii/19910101.logfile.000000.out
+end
+if ( 24 > 1 ) then
+mv: No match.
+set file_previous = 
+set multires = ( `ls *.nc.????` )
+ls ice_month.nc.0000 ice_month.nc.0001 ice_month.nc.0002 ice_month.nc.0003 ice_month.nc.0004 ice_month.nc.0005 ice_month.nc.0006 ice_month.nc.0007 ice_month.nc.0008 ice_month.nc.0009 ice_month.nc.0010 ice_month.nc.0011 ice_month.nc.0012 ice_month.nc.0013 ice_month.nc.0014 ice_month.nc.0015 ice_month.nc.0016 ice_month.nc.0017 ice_month.nc.0018 ice_month.nc.0019 ice_month.nc.0020 ice_month.nc.0021 ice_month.nc.0022 ice_month.nc.0023 ocean_month.nc.0000 ocean_month.nc.0001 ocean_month.nc.0002 ocean_month.nc.0003 ocean_month.nc.0004 ocean_month.nc.0005 ocean_month.nc.0006 ocean_month.nc.0007 ocean_month.nc.0008 ocean_month.nc.0009 ocean_month.nc.0010 ocean_month.nc.0011 ocean_month.nc.0012 ocean_month.nc.0013 ocean_month.nc.0014 ocean_month.nc.0015 ocean_month.nc.0016 ocean_month.nc.0017 ocean_month.nc.0018 ocean_month.nc.0019 ocean_month.nc.0020 ocean_month.nc.0021 ocean_month.nc.0022 ocean_month.nc.0023 ocean_residency_month.nc.0000 ocean_residency_month.nc.0001 ocean_residency_month.nc.0002 ocean_residency_month.nc.0003 ocean_residency_month.nc.0004 ocean_residency_month.nc.0005 ocean_residency_month.nc.0006 ocean_residency_month.nc.0007 ocean_residency_month.nc.0008 ocean_residency_month.nc.0009 ocean_residency_month.nc.0010 ocean_residency_month.nc.0011 ocean_residency_month.nc.0012 ocean_residency_month.nc.0013 ocean_residency_month.nc.0014 ocean_residency_month.nc.0015 ocean_residency_month.nc.0016 ocean_residency_month.nc.0017 ocean_residency_month.nc.0018 ocean_residency_month.nc.0019 ocean_residency_month.nc.0020 ocean_residency_month.nc.0021 ocean_residency_month.nc.0022 ocean_residency_month.nc.0023 ocean_residency_snap.nc.0000 ocean_residency_snap.nc.0001 ocean_residency_snap.nc.0002 ocean_residency_snap.nc.0003 ocean_residency_snap.nc.0004 ocean_residency_snap.nc.0005 ocean_residency_snap.nc.0006 ocean_residency_snap.nc.0007 ocean_residency_snap.nc.0008 ocean_residency_snap.nc.0009 ocean_residency_snap.nc.0010 ocean_residency_snap.nc.0011 ocean_residency_snap.nc.0012 ocean_residency_snap.nc.0013 ocean_residency_snap.nc.0014 ocean_residency_snap.nc.0015 ocean_residency_snap.nc.0016 ocean_residency_snap.nc.0017 ocean_residency_snap.nc.0018 ocean_residency_snap.nc.0019 ocean_residency_snap.nc.0020 ocean_residency_snap.nc.0021 ocean_residency_snap.nc.0022 ocean_residency_snap.nc.0023 ocean_surf.nc.0000 ocean_surf.nc.0001 ocean_surf.nc.0002 ocean_surf.nc.0003 ocean_surf.nc.0004 ocean_surf.nc.0005 ocean_surf.nc.0006 ocean_surf.nc.0007 ocean_surf.nc.0008 ocean_surf.nc.0009 ocean_surf.nc.0010 ocean_surf.nc.0011 ocean_surf.nc.0012 ocean_surf.nc.0013 ocean_surf.nc.0014 ocean_surf.nc.0015 ocean_surf.nc.0016 ocean_surf.nc.0017 ocean_surf.nc.0018 ocean_surf.nc.0019 ocean_surf.nc.0020 ocean_surf.nc.0021 ocean_surf.nc.0022 ocean_surf.nc.0023
+foreach file ( ice_month.nc.0000 ice_month.nc.0001 ice_month.nc.0002 ice_month.nc.0003 ice_month.nc.0004 ice_month.nc.0005 ice_month.nc.0006 ice_month.nc.0007 ice_month.nc.0008 ice_month.nc.0009 ice_month.nc.0010 ice_month.nc.0011 ice_month.nc.0012 ice_month.nc.0013 ice_month.nc.0014 ice_month.nc.0015 ice_month.nc.0016 ice_month.nc.0017 ice_month.nc.0018 ice_month.nc.0019 ice_month.nc.0020 ice_month.nc.0021 ice_month.nc.0022 ice_month.nc.0023 ocean_month.nc.0000 ocean_month.nc.0001 ocean_month.nc.0002 ocean_month.nc.0003 ocean_month.nc.0004 ocean_month.nc.0005 ocean_month.nc.0006 ocean_month.nc.0007 ocean_month.nc.0008 ocean_month.nc.0009 ocean_month.nc.0010 ocean_month.nc.0011 ocean_month.nc.0012 ocean_month.nc.0013 ocean_month.nc.0014 ocean_month.nc.0015 ocean_month.nc.0016 ocean_month.nc.0017 ocean_month.nc.0018 ocean_month.nc.0019 ocean_month.nc.0020 ocean_month.nc.0021 ocean_month.nc.0022 ocean_month.nc.0023 ocean_residency_month.nc.0000 ocean_residency_month.nc.0001 ocean_residency_month.nc.0002 ocean_residency_month.nc.0003 ocean_residency_month.nc.0004 ocean_residency_month.nc.0005 ocean_residency_month.nc.0006 ocean_residency_month.nc.0007 ocean_residency_month.nc.0008 ocean_residency_month.nc.0009 ocean_residency_month.nc.0010 ocean_residency_month.nc.0011 ocean_residency_month.nc.0012 ocean_residency_month.nc.0013 ocean_residency_month.nc.0014 ocean_residency_month.nc.0015 ocean_residency_month.nc.0016 ocean_residency_month.nc.0017 ocean_residency_month.nc.0018 ocean_residency_month.nc.0019 ocean_residency_month.nc.0020 ocean_residency_month.nc.0021 ocean_residency_month.nc.0022 ocean_residency_month.nc.0023 ocean_residency_snap.nc.0000 ocean_residency_snap.nc.0001 ocean_residency_snap.nc.0002 ocean_residency_snap.nc.0003 ocean_residency_snap.nc.0004 ocean_residency_snap.nc.0005 ocean_residency_snap.nc.0006 ocean_residency_snap.nc.0007 ocean_residency_snap.nc.0008 ocean_residency_snap.nc.0009 ocean_residency_snap.nc.0010 ocean_residency_snap.nc.0011 ocean_residency_snap.nc.0012 ocean_residency_snap.nc.0013 ocean_residency_snap.nc.0014 ocean_residency_snap.nc.0015 ocean_residency_snap.nc.0016 ocean_residency_snap.nc.0017 ocean_residency_snap.nc.0018 ocean_residency_snap.nc.0019 ocean_residency_snap.nc.0020 ocean_residency_snap.nc.0021 ocean_residency_snap.nc.0022 ocean_residency_snap.nc.0023 ocean_surf.nc.0000 ocean_surf.nc.0001 ocean_surf.nc.0002 ocean_surf.nc.0003 ocean_surf.nc.0004 ocean_surf.nc.0005 ocean_surf.nc.0006 ocean_surf.nc.0007 ocean_surf.nc.0008 ocean_surf.nc.0009 ocean_surf.nc.0010 ocean_surf.nc.0011 ocean_surf.nc.0012 ocean_surf.nc.0013 ocean_surf.nc.0014 ocean_surf.nc.0015 ocean_surf.nc.0016 ocean_surf.nc.0017 ocean_surf.nc.0018 ocean_surf.nc.0019 ocean_surf.nc.0020 ocean_surf.nc.0021 ocean_surf.nc.0022 ocean_surf.nc.0023 )
+if ( ice_month.nc != ) then
+set input_files = ( `ls $file:r.????` )
+ls ice_month.nc.0000 ice_month.nc.0001 ice_month.nc.0002 ice_month.nc.0003 ice_month.nc.0004 ice_month.nc.0005 ice_month.nc.0006 ice_month.nc.0007 ice_month.nc.0008 ice_month.nc.0009 ice_month.nc.0010 ice_month.nc.0011 ice_month.nc.0012 ice_month.nc.0013 ice_month.nc.0014 ice_month.nc.0015 ice_month.nc.0016 ice_month.nc.0017 ice_month.nc.0018 ice_month.nc.0019 ice_month.nc.0020 ice_month.nc.0021 ice_month.nc.0022 ice_month.nc.0023
+if ( 24 > 0 ) then
+/home/DESK/anika/MOM_SIS/bin/mppnccombine.ncrc2.intel ice_month.nc ice_month.nc.0000 ice_month.nc.0001 ice_month.nc.0002 ice_month.nc.0003 ice_month.nc.0004 ice_month.nc.0005 ice_month.nc.0006 ice_month.nc.0007 ice_month.nc.0008 ice_month.nc.0009 ice_month.nc.0010 ice_month.nc.0011 ice_month.nc.0012 ice_month.nc.0013 ice_month.nc.0014 ice_month.nc.0015 ice_month.nc.0016 ice_month.nc.0017 ice_month.nc.0018 ice_month.nc.0019 ice_month.nc.0020 ice_month.nc.0021 ice_month.nc.0022 ice_month.nc.0023
+if ( 0 != 0 ) then
+rm ice_month.nc.0000 ice_month.nc.0001 ice_month.nc.0002 ice_month.nc.0003 ice_month.nc.0004 ice_month.nc.0005 ice_month.nc.0006 ice_month.nc.0007 ice_month.nc.0008 ice_month.nc.0009 ice_month.nc.0010 ice_month.nc.0011 ice_month.nc.0012 ice_month.nc.0013 ice_month.nc.0014 ice_month.nc.0015 ice_month.nc.0016 ice_month.nc.0017 ice_month.nc.0018 ice_month.nc.0019 ice_month.nc.0020 ice_month.nc.0021 ice_month.nc.0022 ice_month.nc.0023
+endif
+else
+set file_previous = ice_month.nc.0000
+end
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ice_month.nc != ice_month.nc ) then
+continue
+if ( ocean_month.nc != ice_month.nc ) then
+set input_files = ( `ls $file:r.????` )
+ls ocean_month.nc.0000 ocean_month.nc.0001 ocean_month.nc.0002 ocean_month.nc.0003 ocean_month.nc.0004 ocean_month.nc.0005 ocean_month.nc.0006 ocean_month.nc.0007 ocean_month.nc.0008 ocean_month.nc.0009 ocean_month.nc.0010 ocean_month.nc.0011 ocean_month.nc.0012 ocean_month.nc.0013 ocean_month.nc.0014 ocean_month.nc.0015 ocean_month.nc.0016 ocean_month.nc.0017 ocean_month.nc.0018 ocean_month.nc.0019 ocean_month.nc.0020 ocean_month.nc.0021 ocean_month.nc.0022 ocean_month.nc.0023
+if ( 24 > 0 ) then
+/home/DESK/anika/MOM_SIS/bin/mppnccombine.ncrc2.intel ocean_month.nc ocean_month.nc.0000 ocean_month.nc.0001 ocean_month.nc.0002 ocean_month.nc.0003 ocean_month.nc.0004 ocean_month.nc.0005 ocean_month.nc.0006 ocean_month.nc.0007 ocean_month.nc.0008 ocean_month.nc.0009 ocean_month.nc.0010 ocean_month.nc.0011 ocean_month.nc.0012 ocean_month.nc.0013 ocean_month.nc.0014 ocean_month.nc.0015 ocean_month.nc.0016 ocean_month.nc.0017 ocean_month.nc.0018 ocean_month.nc.0019 ocean_month.nc.0020 ocean_month.nc.0021 ocean_month.nc.0022 ocean_month.nc.0023
+if ( 0 != 0 ) then
+rm ocean_month.nc.0000 ocean_month.nc.0001 ocean_month.nc.0002 ocean_month.nc.0003 ocean_month.nc.0004 ocean_month.nc.0005 ocean_month.nc.0006 ocean_month.nc.0007 ocean_month.nc.0008 ocean_month.nc.0009 ocean_month.nc.0010 ocean_month.nc.0011 ocean_month.nc.0012 ocean_month.nc.0013 ocean_month.nc.0014 ocean_month.nc.0015 ocean_month.nc.0016 ocean_month.nc.0017 ocean_month.nc.0018 ocean_month.nc.0019 ocean_month.nc.0020 ocean_month.nc.0021 ocean_month.nc.0022 ocean_month.nc.0023
+endif
+else
+set file_previous = ocean_month.nc.0000
+end
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_month.nc != ocean_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_month.nc ) then
+set input_files = ( `ls $file:r.????` )
+ls ocean_residency_month.nc.0000 ocean_residency_month.nc.0001 ocean_residency_month.nc.0002 ocean_residency_month.nc.0003 ocean_residency_month.nc.0004 ocean_residency_month.nc.0005 ocean_residency_month.nc.0006 ocean_residency_month.nc.0007 ocean_residency_month.nc.0008 ocean_residency_month.nc.0009 ocean_residency_month.nc.0010 ocean_residency_month.nc.0011 ocean_residency_month.nc.0012 ocean_residency_month.nc.0013 ocean_residency_month.nc.0014 ocean_residency_month.nc.0015 ocean_residency_month.nc.0016 ocean_residency_month.nc.0017 ocean_residency_month.nc.0018 ocean_residency_month.nc.0019 ocean_residency_month.nc.0020 ocean_residency_month.nc.0021 ocean_residency_month.nc.0022 ocean_residency_month.nc.0023
+if ( 24 > 0 ) then
+/home/DESK/anika/MOM_SIS/bin/mppnccombine.ncrc2.intel ocean_residency_month.nc ocean_residency_month.nc.0000 ocean_residency_month.nc.0001 ocean_residency_month.nc.0002 ocean_residency_month.nc.0003 ocean_residency_month.nc.0004 ocean_residency_month.nc.0005 ocean_residency_month.nc.0006 ocean_residency_month.nc.0007 ocean_residency_month.nc.0008 ocean_residency_month.nc.0009 ocean_residency_month.nc.0010 ocean_residency_month.nc.0011 ocean_residency_month.nc.0012 ocean_residency_month.nc.0013 ocean_residency_month.nc.0014 ocean_residency_month.nc.0015 ocean_residency_month.nc.0016 ocean_residency_month.nc.0017 ocean_residency_month.nc.0018 ocean_residency_month.nc.0019 ocean_residency_month.nc.0020 ocean_residency_month.nc.0021 ocean_residency_month.nc.0022 ocean_residency_month.nc.0023
+if ( 0 != 0 ) then
+rm ocean_residency_month.nc.0000 ocean_residency_month.nc.0001 ocean_residency_month.nc.0002 ocean_residency_month.nc.0003 ocean_residency_month.nc.0004 ocean_residency_month.nc.0005 ocean_residency_month.nc.0006 ocean_residency_month.nc.0007 ocean_residency_month.nc.0008 ocean_residency_month.nc.0009 ocean_residency_month.nc.0010 ocean_residency_month.nc.0011 ocean_residency_month.nc.0012 ocean_residency_month.nc.0013 ocean_residency_month.nc.0014 ocean_residency_month.nc.0015 ocean_residency_month.nc.0016 ocean_residency_month.nc.0017 ocean_residency_month.nc.0018 ocean_residency_month.nc.0019 ocean_residency_month.nc.0020 ocean_residency_month.nc.0021 ocean_residency_month.nc.0022 ocean_residency_month.nc.0023
+endif
+else
+set file_previous = ocean_residency_month.nc.0000
+end
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_month.nc != ocean_residency_month.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_month.nc ) then
+set input_files = ( `ls $file:r.????` )
+ls ocean_residency_snap.nc.0000 ocean_residency_snap.nc.0001 ocean_residency_snap.nc.0002 ocean_residency_snap.nc.0003 ocean_residency_snap.nc.0004 ocean_residency_snap.nc.0005 ocean_residency_snap.nc.0006 ocean_residency_snap.nc.0007 ocean_residency_snap.nc.0008 ocean_residency_snap.nc.0009 ocean_residency_snap.nc.0010 ocean_residency_snap.nc.0011 ocean_residency_snap.nc.0012 ocean_residency_snap.nc.0013 ocean_residency_snap.nc.0014 ocean_residency_snap.nc.0015 ocean_residency_snap.nc.0016 ocean_residency_snap.nc.0017 ocean_residency_snap.nc.0018 ocean_residency_snap.nc.0019 ocean_residency_snap.nc.0020 ocean_residency_snap.nc.0021 ocean_residency_snap.nc.0022 ocean_residency_snap.nc.0023
+if ( 24 > 0 ) then
+/home/DESK/anika/MOM_SIS/bin/mppnccombine.ncrc2.intel ocean_residency_snap.nc ocean_residency_snap.nc.0000 ocean_residency_snap.nc.0001 ocean_residency_snap.nc.0002 ocean_residency_snap.nc.0003 ocean_residency_snap.nc.0004 ocean_residency_snap.nc.0005 ocean_residency_snap.nc.0006 ocean_residency_snap.nc.0007 ocean_residency_snap.nc.0008 ocean_residency_snap.nc.0009 ocean_residency_snap.nc.0010 ocean_residency_snap.nc.0011 ocean_residency_snap.nc.0012 ocean_residency_snap.nc.0013 ocean_residency_snap.nc.0014 ocean_residency_snap.nc.0015 ocean_residency_snap.nc.0016 ocean_residency_snap.nc.0017 ocean_residency_snap.nc.0018 ocean_residency_snap.nc.0019 ocean_residency_snap.nc.0020 ocean_residency_snap.nc.0021 ocean_residency_snap.nc.0022 ocean_residency_snap.nc.0023
+if ( 0 != 0 ) then
+rm ocean_residency_snap.nc.0000 ocean_residency_snap.nc.0001 ocean_residency_snap.nc.0002 ocean_residency_snap.nc.0003 ocean_residency_snap.nc.0004 ocean_residency_snap.nc.0005 ocean_residency_snap.nc.0006 ocean_residency_snap.nc.0007 ocean_residency_snap.nc.0008 ocean_residency_snap.nc.0009 ocean_residency_snap.nc.0010 ocean_residency_snap.nc.0011 ocean_residency_snap.nc.0012 ocean_residency_snap.nc.0013 ocean_residency_snap.nc.0014 ocean_residency_snap.nc.0015 ocean_residency_snap.nc.0016 ocean_residency_snap.nc.0017 ocean_residency_snap.nc.0018 ocean_residency_snap.nc.0019 ocean_residency_snap.nc.0020 ocean_residency_snap.nc.0021 ocean_residency_snap.nc.0022 ocean_residency_snap.nc.0023
+endif
+else
+set file_previous = ocean_residency_snap.nc.0000
+end
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_residency_snap.nc != ocean_residency_snap.nc ) then
+continue
+if ( ocean_surf.nc != ocean_residency_snap.nc ) then
+set input_files = ( `ls $file:r.????` )
+ls ocean_surf.nc.0000 ocean_surf.nc.0001 ocean_surf.nc.0002 ocean_surf.nc.0003 ocean_surf.nc.0004 ocean_surf.nc.0005 ocean_surf.nc.0006 ocean_surf.nc.0007 ocean_surf.nc.0008 ocean_surf.nc.0009 ocean_surf.nc.0010 ocean_surf.nc.0011 ocean_surf.nc.0012 ocean_surf.nc.0013 ocean_surf.nc.0014 ocean_surf.nc.0015 ocean_surf.nc.0016 ocean_surf.nc.0017 ocean_surf.nc.0018 ocean_surf.nc.0019 ocean_surf.nc.0020 ocean_surf.nc.0021 ocean_surf.nc.0022 ocean_surf.nc.0023
+if ( 24 > 0 ) then
+/home/DESK/anika/MOM_SIS/bin/mppnccombine.ncrc2.intel ocean_surf.nc ocean_surf.nc.0000 ocean_surf.nc.0001 ocean_surf.nc.0002 ocean_surf.nc.0003 ocean_surf.nc.0004 ocean_surf.nc.0005 ocean_surf.nc.0006 ocean_surf.nc.0007 ocean_surf.nc.0008 ocean_surf.nc.0009 ocean_surf.nc.0010 ocean_surf.nc.0011 ocean_surf.nc.0012 ocean_surf.nc.0013 ocean_surf.nc.0014 ocean_surf.nc.0015 ocean_surf.nc.0016 ocean_surf.nc.0017 ocean_surf.nc.0018 ocean_surf.nc.0019 ocean_surf.nc.0020 ocean_surf.nc.0021 ocean_surf.nc.0022 ocean_surf.nc.0023
+if ( 0 != 0 ) then
+rm ocean_surf.nc.0000 ocean_surf.nc.0001 ocean_surf.nc.0002 ocean_surf.nc.0003 ocean_surf.nc.0004 ocean_surf.nc.0005 ocean_surf.nc.0006 ocean_surf.nc.0007 ocean_surf.nc.0008 ocean_surf.nc.0009 ocean_surf.nc.0010 ocean_surf.nc.0011 ocean_surf.nc.0012 ocean_surf.nc.0013 ocean_surf.nc.0014 ocean_surf.nc.0015 ocean_surf.nc.0016 ocean_surf.nc.0017 ocean_surf.nc.0018 ocean_surf.nc.0019 ocean_surf.nc.0020 ocean_surf.nc.0021 ocean_surf.nc.0022 ocean_surf.nc.0023
+endif
+else
+set file_previous = ocean_surf.nc.0000
+end
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+if ( ocean_surf.nc != ocean_surf.nc ) then
+continue
+endif
+foreach ncfile ( `/bin/ls *.nc` )
+/bin/ls ice_month.nc ocean_month.nc ocean_residency_month.nc ocean_residency_snap.nc ocean_scalar.nc ocean_surf.nc
+mv ice_month.nc history/19910101.ice_month.nc
+end
+mv ocean_month.nc history/19910101.ocean_month.nc
+end
+mv ocean_residency_month.nc history/19910101.ocean_residency_month.nc
+end
+mv ocean_residency_snap.nc history/19910101.ocean_residency_snap.nc
+end
+mv ocean_scalar.nc history/19910101.ocean_scalar.nc
+end
+mv ocean_surf.nc history/19910101.ocean_surf.nc
+end
+unset echo
